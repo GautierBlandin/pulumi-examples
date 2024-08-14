@@ -106,6 +106,3 @@ This Pulumi template creates the following AWS resources:
     - Purpose: Securely stores the Claude API key for use in the application.
 - **SSM Parameter** (for API Access Token)
     - Purpose: Securely stores the API Access Token for use in the application.
-
-These resources work together to create a scalable and secure infrastructure for hosting a SPA with 
-a Nest.js backend on AWS. The setup leverages containerization with Docker and ECS, content delivery with CloudFront, and static asset hosting with S3. It includes auto-scaling capabilities through the Auto Scaling Group and ECS Capacity Provider.
